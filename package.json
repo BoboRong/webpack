@@ -1,0 +1,21 @@
+{
+  "name": "webPack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+	    "test": "echo \"Error: no test specified\" && exit 1",
+	    "dev": "webpack-dev-server --progress --port 6008 --open"
+	 },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "vue": "^2.3.4"
+  },
+  "devDependencies": {
+    "css-loader": "^0.28.4",
+    "vue-loader": "^13.0.0",
+    "vue-template-compiler": "^2.3.4"
+  }
+}
